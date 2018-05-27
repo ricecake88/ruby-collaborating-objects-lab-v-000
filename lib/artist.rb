@@ -6,7 +6,11 @@ class Artist
     @name = name
     @songs = [] #keeps track of an artists/instance's songs
   end
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 00c9e45b4ee25cc5e067b15d990ab4130807e835
   def add_song(song)
     @songs << song
     song.artist = self
